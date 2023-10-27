@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 读取手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 拥有完全的网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读取手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 修改或删除您的USB存储设备中的内容 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 查看网络连接 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.MainActivity"
+            android:label="@string/title_activity_Main" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.AddStudentInfoActivity"
+            android:label="@string/title_activity_add_info" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.AddCourseInfoActivity"
+            android:label="@string/title_activity_add_course" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.ShowStudentInfoActivity"
+            android:label="@string/title_activity_show_student_info" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.WeihuStudentInfoActivity"
+            android:label="@string/title_activity_weihu_student_info" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.RepairStudentInfoActivity"
+            android:label="@string/title_activity_repair_student_info" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.AddStudentAttendanceActivity"
+            android:label="学生考勤录入" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.WeihuCoursenfoActivity"
+            android:label="课程维护" />
+        <activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.RepairCourseInfoActivity"
+            android:label="课程修改" /><activity
+            android:name="au.edu.federation.itech3107.studentattendance30395775.ui.WeihuAttendanceActivity"
+            android:label="考勤维护" />
+    </application>
+
+</manifest>

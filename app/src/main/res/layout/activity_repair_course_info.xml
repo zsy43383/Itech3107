@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Course Information Update"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course:" />
+
+        <EditText
+            android:id="@+id/et_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Data Structure">
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout03"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_marginTop="52dp"
+        android:gravity="center|center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:text="Start:" />
+
+        <EditText
+            android:id="@+id/et_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:inputType="none"
+            android:focusable="false" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayout03"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End:" />
+
+        <EditText
+            android:id="@+id/et_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LinearLayout02"
+        android:layout_below="@+id/LinearLayout02"
+        android:layout_marginTop="14dp" >
+
+        <Button
+            android:id="@+id/repairsavebutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Save Changes" />
+
+        <Button
+            android:id="@+id/repairdelbutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Delete Information" />
+    </LinearLayout>
+
+
+</RelativeLayout>

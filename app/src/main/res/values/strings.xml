@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Attendance System</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_main_exit">Exit</string>
+    <string name="title_activity_register">New User Registration</string>
+    <string name="str_reg_title">New User Registration</string>
+    <string name="str_reg_pass1">Password:</string>
+    <string name="str_reg_pass2">Confirm Password:</string>
+    <string name="str_reg_save">Register</string>
+    <string name="title_activity_Main">Attendance</string>
+    <string name="title_activity_add_info">Add Student Information</string>
+    <string name="title_activity_add_course">Add Course Information</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_student_info">View Student Information</string>
+    <string name="title_activity_weihu_student_info">Maintain Student Information</string>
+    <string name="title_activity_repair_student_info">Modify Student Information</string>
+    <string name="title_activity_add_student_score">Add Student Score</string>
+    <string name="title_activity_show_student_score">View Student Score</string>
+    <string name="title_activity_weihu_student_score">Maintain Student Score</string>
+    <string name="title_activity_repair_student_score">Modify Student Score</string>
+
+</resources>
